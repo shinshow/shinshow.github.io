@@ -8,7 +8,7 @@ share: true
 related: true
 excerpt: 프로그래밍 패러다임
 categories:
-- programming paradigm
+- Programming
 tags:
 - 패러다임
 - 소프웨어 공학
