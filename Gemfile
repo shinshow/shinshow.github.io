@@ -11,13 +11,12 @@ source "https://rubygems.org"
 
 # gem "github-pages", group: :jekyll_plugins
 
+gem "jekyll"
+gem "minimal-mistakes-jekyll", :github => "mmistakes/minimal-mistakes"
+gem 'jekyll-admin', group: :jekyll_plugins
+
 # To upgrade, run `bundle update`.
 
-gem "jekyll"
-gem "minimal-mistakes-jekyll",
-:github => "mmistakes/minimal-mistakes"
-
-gem 'jekyll-admin', group: :jekyll_plugins
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
 #   gem "jekyll-sitemap"
