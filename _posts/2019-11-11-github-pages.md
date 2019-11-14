@@ -13,7 +13,7 @@ tags:
 - GitHub
 - 깃허브
 - 블로그
-last_modified_at: 2019-11-11 17:58
+last_modified_at: 2019-11-11T17:58
 ---
 
 # 용어 정리

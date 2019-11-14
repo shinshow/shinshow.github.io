@@ -13,7 +13,7 @@ tags:
 - 패러다임
 - 소프웨어 공학
 - 객체지향
-last_modified_at: 2019-11-12 20:05
+last_modified_at: 2019-11-12T20:05
 ---
 
 위키백과의 정의에 따르면 [프로그래밍 패러다임](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84) 이란  프로그래머에게 프로그래밍의 관점을 갖게 해 주고, 결정하는 역할을 한단다....  

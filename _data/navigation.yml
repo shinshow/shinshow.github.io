@@ -1,13 +1,13 @@
 # main links
 main:
-  - title: "티스토리 방문"
+  - title: "TISTORY"
     url: https://swexplorer.tistory.com/
   - title: "Categories"
     url: /categories/
+  - title: "Posts"
+    url: /year-archive/
   - title: "About"
     url: /about/
-  # - title: "Posts"
-    url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
