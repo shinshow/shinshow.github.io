@@ -23,7 +23,7 @@ GitHub에서 2008년 말부터 제공하는 정적 웹사이트(static websites)
 왜? 나는 블로그를 만들기 위해 사용할 테니까!!
 
 ### 지킬(Jekyll) : [공식 사이트](https://jekyllrb-ko.github.io/)
-루비(Ruby)(<https://www.ruby-lang.org/ko>)로 만든 정적 웹사이트 생성기(static websites generator)로 HEXO(https://hexo.io/ko)와 함께 가장 많이 사용하고 있다.
+루비(Ruby)(<https://www.ruby-lang.org/ko>)로 만든 정적 웹사이트 생성기(static websites generator)로 HEXO(<https://hexo.io/ko>)와 함께 가장 많이 사용하고 있다.
 GitHub는 markdown 파일포맷을 지원하는데, 이 파일포맷으로 글을 작성하면 지킬이 자동으로 html 포맷으로 변환해 준다.
 블로그를 만들기 위해  맨 땅에 헤딩해서 쌩~고생을 하는것을 막아주는 고마운 존재이다.
 지킬을 성공적으로 설치한 후,   
