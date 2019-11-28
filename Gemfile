@@ -14,6 +14,7 @@ source "https://rubygems.org"
 gem "jekyll"
 gem "minimal-mistakes-jekyll", :github => "mmistakes/minimal-mistakes"
 gem 'jekyll-admin', group: :jekyll_plugins
+gem 'jemoji'
 
 # To upgrade, run `bundle update`.
 
