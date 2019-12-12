@@ -232,6 +232,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-mermaid
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
@@ -241,6 +242,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-mermaid
   - jekyll-include-cache
 
 

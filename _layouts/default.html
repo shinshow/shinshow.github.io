@@ -15,9 +15,20 @@
     {% if page.use_math %}
     {% include mathjax_support.html %}
     {% endif %}
-
-    <script src="/assets/js/mermaid.min.js"></script>
-    <script>mermaid.initialize({ startOnLoad: true });</script>
+    <!-- mermaid -->
+    <script src="/assets/js/mermaid.js"></script>
+    <script>
+      var config = {
+        startOnLoad: true,
+        theme: 'default',
+        flowchart: {
+          useMaxWidth: false,
+          htmlLabels: true
+        }
+      };
+      mermaid.initialize(config);
+      window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    </script>
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
