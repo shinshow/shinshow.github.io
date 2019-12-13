@@ -35,9 +35,28 @@ Start Jekyll as you would normally :
 bundle exec jekyll serve   
 Navigate to http://localhost:4000/admin   to access the administrative interface  
 
-### 젬(gem): 
+### 젬(Gem): 
 분산 패키지 시스템으로 라이브러리의 작성이나 공개, 설치를 도와주는 시스템이다.  
-루비(Ruby)는 젬(gem)을 사용하여 라이브러리 설치를 편하게 설치, 관리할 수 있다.
+루비(Ruby)는 젬(gem)을 사용하여 라이브러리 설치를 편하게 설치, 관리할 수 있다.  
+
+### Gemfile & Bundler:
+`Gemfile`은 다양한 젬(gem)들을 등록하는 파일로서 종속성을 구성하는 표준 방법이다. 그래서 설치가 필요한 젬(gem)파일들을 여기에 등록해놓고 사용하면 된다.  
+`Gemfile.lock` 은 실제로 인스톨된 Gem과 의존관계가 있는 Gem이 기술된 파일이다.
+Gemfile을 갱신후  
+-> bundle install을 실행   
+-> Gemfile.lock이 자동갱신 이런순이다.  
+`일단, 특별히 건드릴 일은 없는 파일이다.`
+
+`Bundler`는 Gemfile에 정의된 젬(gem)들의 의존성을 파악해서 올바른 젬(gem)을 사용할 수 있게끔 해주는 관리툴이라 할 수 있다. 즉, 필요한 정확한 gem과 버전을 추적하고 설치하여 루비 프로젝트를 위한 일관된 환경을 제공해 준다. 특정 gem의 의존성을 관리하거나, 환경에따라 버전을 바꿔볼때 버전을 관리 하거나 한다. Bundler또한 RubyGems(gem)의 하나이다.
+
+~~~
+gem install bundler
+bundle install
+~~~
+
+결론적으로,  
+**Gemfile 에 필요한 젬(gem)들을 추가하고 -> Bundler로 인스톨(bundle install)해서 사용하면 된다.**
+
 
 ### 헥소?(Hexo): [공식사이트](https://hexo.io/ko/)
 Node.js(<https://nodejs.org>)로 만든 정적 웹사이트 생성기(static websites generator)로 Jekyll 과 함께 많이 사용되고 있는듯 하다.  
