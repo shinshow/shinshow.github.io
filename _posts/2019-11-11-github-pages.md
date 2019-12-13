@@ -42,9 +42,8 @@ Navigate to http://localhost:4000/admin   to access the administrative interface
 ### Gemfile & Bundler:
 `Gemfile`은 다양한 젬(gem)들을 등록하는 파일로서 종속성을 구성하는 표준 방법이다. 그래서 설치가 필요한 젬(gem)파일들을 여기에 등록해놓고 사용하면 된다.  
 `Gemfile.lock` 은 실제로 인스톨된 Gem과 의존관계가 있는 Gem이 기술된 파일이다.
-Gemfile을 갱신후  
--> bundle install을 실행   
--> Gemfile.lock이 자동갱신 이런순이다.  
+
+Gemfile 업데이트 -> bundle install 실행 -> Gemfile.lock 자동갱신  
 `일단, 특별히 건드릴 일은 없는 파일이다.`
 
 `Bundler`는 Gemfile에 정의된 젬(gem)들의 의존성을 파악해서 올바른 젬(gem)을 사용할 수 있게끔 해주는 관리툴이라 할 수 있다. 즉, 필요한 정확한 gem과 버전을 추적하고 설치하여 루비 프로젝트를 위한 일관된 환경을 제공해 준다. 특정 gem의 의존성을 관리하거나, 환경에따라 버전을 바꿔볼때 버전을 관리 하거나 한다. Bundler또한 RubyGems(gem)의 하나이다.
