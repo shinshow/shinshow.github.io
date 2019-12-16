@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "Dev-SHinSHow"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "shinshow Blog"
+name                     : "SHinSHow Blog"
 description              : "현재 관심있어하고, 기억해야 할거 같고, 알고 싶었던 내용들을 정리해두는 공간 - 블로그를 위한 포스팅이 아닌 나를 위한 포스팅 공간"
 url                      :  "https://shinshow.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -107,7 +107,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "shinshow"
+  name             : "SHinSHow"
   avatar           : "/assets/images/ShinShow-Profile_4.png"
   bio              : "Software is never soft."
   location         : "South Korea"
